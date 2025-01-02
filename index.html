@@ -4,28 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WitFlix</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <div id="wrap">
-         <header>
-            <img src="./src/images/WitFlix.png" alt="WitFlix Logo" class="logo">
-            <nav>
-                <a href="">Topic 1</a>
-                <a href="">Topic 2</a>
-                <a href="">Topic 3</a>
-                <a href="">Topic 4</a>
-            </nav>
-            <div class="search">
-                <input type="text" placeholder="Search">
-                <i class="fa-solid fa-bell"></i>
-                <img src="" alt="Profil resmi" class="profile">
+        <header>
+          <a href="./index.html"
+            ><img src="./src/images/WitFlix.png" alt="WitFlix Logo" class="logo"
+          /></a>
+          <nav>
+            <a href="">Home</a>
+            <a href="">Movies</a>
+            <a href="">Series</a>
+            <a href="">Contact</a>
+          </nav>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search" />
+            <i class="fa-solid fa-bell"></i>
+            <img
+              src=""
+              alt="Profil resmi"
+              class="profile"
+            />
+          </div>
+        </header>
+        <main>
+            <section id="movie-details">
+              <h1>Mission: Impossible</h1>
+              <div class="rating">
+                <div class="stars">★★★★☆</div>
+                <span class="user-rating">7.7</span>
+                <span class="duration">2h 43m</span>
+              </div>
+              <p class="desc">
+                Ethan Hunt and the IMF team must track down a terrifying new weapon that threatens all of humanity if it falls into the wrong hands. With control of the future and the fate of the world at stake, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan is forced to consider that nothing can matter more than the mission -- not even the lives of those he cares about most.
+              </p>
+              <div class="details">
+                <ul>
+                  <li><span>Genre:</span> Action, Adventure, Thriller</li>
+                  <li><span>Director:</span> Christopher McQuarrie</li>
+                  <li><span>Year:</span> 2023</li>
+                </ul>
+              </div>
+              <button><i class="fa-solid fa-play"></i>Watch Now</button>
+            </section>
+          </main>
+          <section title="Popular Movies">
+            <h2>Popular Movies</h2>
+            <div class="movie-container">
+              <div class="movie-card">
+                <h3>MOVIE NAME</h3>
+                <span>Rating: 7.5</span>
+                <span>Duration: 2h 20m</span>
+                <button><i class="fa-solid fa-play"></i> Play</button>
+              </div>
+              <div class="movie-card">
+                <h3>MOVIE NAME</h3>
+                <span>Rating: 7.5</span>
+                <span>Duration: 2h 20m</span>
+                <button><i class="fa-solid fa-play"></i> Play</button>
+              </div>
+              <div class="movie-card">
+                <h3>MOVIE NAME</h3>
+                <span>Rating: 7.5</span>
+                <span>Duration: 2h 20m</span>
+                <button><i class="fa-solid fa-play"></i> Play</button>
+              </div>
             </div>
-         </header>
-         <main></main>
-         <section></section>
-         <footer></footer>
+          </section>
+          <section title="Recommend for You">
+            <h2>Recommended for You</h2>
+            <div class="movie-container">
+              <div class="movie-card">
+                <h3>MOVIE NAME</h3>
+                <span>Rating: 7.5</span>
+                <span>Duration: 2h 20m</span>
+                <button><i class="fa-solid fa-play"></i> Play</button>
+              </div>
+    
+              <div class="movie-card">
+                <h3>MOVIE NAME</h3>
+                <span>Rating: 7.5</span>
+                <span>Duration: 2h 20m</span>
+                <button><i class="fa-solid fa-play"></i> Play</button>
+              </div>
+    
+              <div class="movie-card">
+                <h3>MOVIE NAME</h3>
+                <span>Rating: 7.5</span>
+                <span>Duration: 2h 20m</span>
+                <button><i class="fa-solid fa-play"></i> Play</button>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <div class="footer-content">
+              <div class="footer-helps">
+                <nav>
+                  <a href="#">Terms of Use</a>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">FAQ</a>
+                  <a href="#">Watch List</a>
+                </nav>
+                <p>
+                  <span>WitFlix</span> is your ultimate destination for movies and
+                  series! From the latest releases to timeless classics, we offer a
+                  vast library catering to every taste. With our user-friendly
+                  interface and personalized recommendations, finding your next
+                  favorite film has never been easier. Bring the magic of cinema to
+                  your home with WitFlix!
+                </p>
+              </div>
+              <div class="footer-socials">
+                <p>Follow Us</p>
+                <div class="social-icons">
+                  <img
+                    src="./src/images/facebook-icon.png"
+                    alt="WitFlix Facebook Page"
+                  />
+                  <img src="./src/images/youtube-icon.png" alt="WitFlix Youtube Page" />
+                  <img src="./src/images/twitter-icon.png" alt="WitFlix X Page" />
+                </div>
+              </div>
+              <div class="apps">
+                <p>Apps</p>
+                <div class="apps-icons">
+                  <img src="./src/images/appstore.png" alt="WitFlix on AppStore" />
+                  <img src="./src/images/googleplay.png" alt="WitFlix on GooglePlay" />
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; 2025 WitFlix. All rights reserved.</p>
+            </div>
+          </footer>
     </div>
 </body>
 </html>
