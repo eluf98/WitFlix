@@ -132,14 +132,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/07/mission-impossible-dead-reckoning-part-one-social-featured.jpg");
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/11684.jpg");
     background-size: cover;
     background-position: center;
   }
   
   #movie-details {
     padding: 2rem 3rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
   }
   
   #movie-details h1 {
@@ -164,7 +163,7 @@
   
   .user-rating {
     font-size: 1.2rem;
-    color: #fff;
+    color: black;
   }
   
   .duration {
@@ -176,14 +175,14 @@
     font-size: 1rem;
     margin-top: 1.5rem;
     line-height: 1.6;
-    color: #ddd;
+    color: black;
   }
   
   .details ul {
     list-style: none;
     margin-top: 1.5rem;
     font-size: 0.9rem;
-    color: #aaa;
+    color:black;
     text-align: left;
   }
   
@@ -219,7 +218,7 @@
   }
   
   button:hover {
-    background-color: transparent;
+    background-color: red;
     transform: scale(1.05);
   }
   
